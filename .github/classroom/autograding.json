@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Integración Continua Simple",
+      "setup": "",
+      "run": "MIX_ENV=test mix do format, test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
